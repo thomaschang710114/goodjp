@@ -1,0 +1,13 @@
+[theme]
+base = "dark"
+primaryColor = "#E63946"         # 日系紅
+backgroundColor = "#0D1B2A"      # 深海藍（主背景）
+secondaryBackgroundColor = "#1B2A3B"  # 稍淺深藍（側邊欄）
+textColor = "#F1FAEE"            # 暖白
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
