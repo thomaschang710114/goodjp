@@ -10,12 +10,12 @@
 
 | # | 任務 | 狀態 | 備註 |
 |---|------|------|------|
-| 1.1 | 初始化 Git repo，建立 `.gitignore`（忽略 `.env`、`__pycache__`、`.venv`） | ⬜ | |
-| 1.2 | 建立 Python 虛擬環境（`venv` 或 `uv`），產出 `requirements.txt` | ⬜ | 含 streamlit, sqlmodel, psycopg2-binary, google-generativeai, pytest, python-dotenv |
-| 1.3 | 建立專案目錄結構（`app/`, `tests/`, `pages/`, `.streamlit/`） | ⬜ | 詳見下方目錄樹 |
-| 1.4 | 建立 `.streamlit/secrets.toml.example` 與根目錄 `.env.example`（含 `DATABASE_URL`, `GEMINI_API_KEY`, OAuth keys） | ⬜ | **暫停：需你提供實際金鑰** |
-| 1.5 | 建立最小可運行的 `app/main.py`（Streamlit Hello World，含 page config 與 sidebar 骨架） | ⬜ | |
-| 1.6 | 將專案推上 GitHub，確認 remote 連線正常 | ⬜ | **暫停：需你提供 GitHub repo URL 或授權建立** |
+| 1.1 | 初始化 Git repo，建立 `.gitignore`（忽略 `.env`、`__pycache__`、`.venv`） | ✅ | |
+| 1.2 | 建立 Python 虛擬環境（`uv`），產出 `requirements.txt` | ✅ | google-genai 2.25.0, streamlit, sqlmodel, psycopg2-binary, pytest |
+| 1.3 | 建立專案目錄結構（`app/`, `tests/`, `pages/`, `.streamlit/`） | ✅ | 詳見下方目錄樹 |
+| 1.4 | 建立 `.streamlit/secrets.toml.example` 與根目錄 `.env.example`（含 `DATABASE_URL`, `GEMINI_API_KEY`, OAuth keys） | ✅ | |
+| 1.5 | 建立最小可運行的 `app/main.py`（Streamlit Hello World，含 page config 與 sidebar 骨架） | ✅ | 含日系主題 CSS inject |
+| 1.6 | 將專案推上 GitHub，確認 remote 連線正常 | ✅ | https://github.com/thomaschang710114/goodjp |
 
 ### Phase 1 目錄樹規劃
 ```
